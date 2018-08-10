@@ -1,4 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 body{
 	padding: 50px;
+	font-family: 'Poppins', sans-serif;
  	
 }
+h1{
+	background-color: red;
+	color:white;
+	font-size: 85px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+h2{
+	background-color:rgb(244, 65, 65);
+	color:white;
+	font-size: 55px;
+	text-align: center;
+	text-transform: lowercase;
+}
+.opcoes{
+	display: flex;
+}
+img 
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 53px;
+    height: 256px;
+    width: 256px;
+}
+.card {
+	flex: 1;
+	background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.opcoes> div{
+	width: 370px ; 
+	height: 370px;
+	margin: 50px;
+	text-align: center;
+}
+#steak {
+	font-size: 2em;
+
+}
+.botao, button {
+	
+	height: 50px;
+	line-height: 40px;
+	font-size: 40px;
+	
+
+}
+.botao{
+	padding-top: 20px;
+	text-align:center;
+	width: 100%;
+
+}
+button {
+	background-color: blue;
+	color: white;
+	outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    width: 50%;
+}
+

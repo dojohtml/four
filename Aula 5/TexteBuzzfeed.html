@@ -4,65 +4,95 @@
 <head>
 	<title>Que Salgado Você é?</title>
 </head>
-	
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="buzzfeed.js"></script>
 <body>
 
 <h1>Que Salgado Você é?</h1>
 <div>
-	<fieldset>
 		<form>
+			<div id="p1">
 			<div>
-	    		<label>Qual tipo de carne você gosta?</label>
+	    		<h2>Qual tipo de carne você gosta?</h2>
 	    	</div>
-			<div >
-	  			<input  type="checkbox" value="" >
-	  			<label>Frango</label>
+
+	    	<div class="opcoes">
+				<div class="image card">
+						<img src="img/frango.jpg">		
+	  					<span><input  type="checkbox" value="" ><label id="steak">Frango</label></span>
+				</div>
+		
+				<div class="image card">
+					<img src="img/peixe.jfif">
+				  	<span><input type="checkbox" value="" ><label id="steak">Peixe</label></span>
+				</div>
+				
+				<div class="image card">
+					<img src="img/carne.jfif">
+				  	<span>
+				  		<input  type="checkbox" value="" >
+				  		<label id="steak">Carne Vermelha</label>
+				  	</span>
+				</div>
 			</div>
-			<div >
-			  	<input type="checkbox" value="" >
-			  	<label>Peixe</label>
 			</div>
-			<div >
-			  	<input  type="checkbox" value="" >
-			  	<label>Carne Vermelha</label>
-			</div>
+			<div id="p2">
 			<div>
-	    		<label>Que tipo de massa você gosta?</label>
-	 		</div>
-	 		<div >
-				<input  type="checkbox"  value="option1">
-				<label>Macarrão(em geral)</label>
+	    		<h2>Que tipo de massa você gosta?</h2>
+	    	</div>
+
+	    	<div class="opcoes">
+				<div class="image card">
+						<img src="img/macarrao.jpg">		
+	  					<span><input  type="checkbox" value="" ><label id="steak">Macarrão</label></span>
+				</div>
+		
+				<div class="image card">
+					<img src="img/nhoque.jpg">
+				  	<span><input type="checkbox" value="" ><label id="steak">Nhoque</label></span>
+				</div>
+				
+				<div class="image card">
+					<img src="img/talharim.jpg">
+				  	<span>
+				  		<input  type="checkbox" value="" >
+				  		<label id="steak">Talharim</label>
+				  	</span>
+				</div>
 			</div>
+			</div>
+			<div id="p3">
 			<div>
-				<input  type="checkbox" value="option2">
-				<label>nhoque</label>
+	    		<h3>Você gosta de massa de aipim?</h3>
+	    	</div>
+
+	    	<div class="opcoes">
+				<div class="image card">
+						<img src="img/macarrao.jpg">		
+	  					<span><input  type="checkbox" value="" ><label id="steak">Macarrão</label></span>
+				</div>
+		
+				<div class="image card">
+					<img src="img/nhoque.jpg">
+				  	<span><input type="checkbox" value="" ><label id="steak">Nhoque</label></span>
+				</div>
+				
+				<div class="image card">
+					<img src="img/talharim.jpg">
+				  	<span>
+				  		<input  type="checkbox" value="" >
+				  		<label id="steak">Talharim</label>
+				  	</span>
+				</div>
 			</div>
-			<div>
-				<input  type="checkbox" value="option3" >
-				<label>talharim</label>
 			</div>
-		<div>
-			<label>Você gosta de massa de aipim?</label>
-			<div>
-				<input  type="radio" value="" >
-			  	<label>Mas que droga</label>
+
+	
+			<div class="botao">
+				<button  onclick="myFunction()" type="submit">Resultado do teste</button>
 			</div>
-			<div>
-			<input  type="radio" value="" >
-			  	<label>Não mesmo</label>
-			</div>
-			<div>
-			<input  type="radio" value="" >
-			  	<label>Chamo nem de salgado</label>
-			</div>
-		</div>
-		<div>
-			<button type="submit">Submit</button>
-		</div>
 
 	</form>
-	</fieldset>
 </div>
 
 
