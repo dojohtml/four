@@ -2,7 +2,7 @@
 body{
 	padding: 50px;
 	font-family: 'Poppins', sans-serif;
- 	
+	width: 90% !important;
 }
 h1{
 	background-color: red;
@@ -20,6 +20,7 @@ h2{
 	text-align: center;
 	text-transform: lowercase;
 }
+
 .opcoes{
 	display: flex;
 }
@@ -64,11 +65,67 @@ img
 
 }
 button {
-	background-color: blue;
+	background-color: grey;
 	color: white;
 	outline: none;
     border-radius: 2px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-    width: 50%;
+    width: 95%;
 }
 
+@media only screen and (max-width: 600px) {
+    body{
+    	padding: 0px;
+    }
+    h1{
+		font-size: 35px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	.opcoes{
+		display: block;	
+		}
+	.opcoes> div{
+		width: 90% ; 
+		height: 370px;
+		margin: 20px;
+	}
+	.botao{
+		padding-top: 20px;
+		text-align:center;
+		width: 100%;
+
+	}
+	#steak {
+		font-size: 1.4em;
+	}
+}
+@media only screen and (max-width: 1024px) {
+    body{
+    	padding: 25px;
+    }
+    h1{
+		font-size: 35px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	.opcoes{
+		display: block;	
+		}
+	.opcoes> div{
+		width: 90% ; 
+		height: 370px;
+		margin: 20px;
+	}
+	.botao{
+		padding-top: 20px;
+		text-align:center;
+		width: 100%;
+
+	}
+	#steak {
+		font-size: 1.4em;
+	}
+}
